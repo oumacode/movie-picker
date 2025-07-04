@@ -7,7 +7,6 @@ A fun and modern movie picker website where users can click a button to get rand
 ##  Features
 
 - 🟦 Built with **Next.js 14** (App Router)
-- 💨 Styled using **Tailwind CSS**
 - 🎞️ Scrollable film strip of movie posters
 - 🎲 “Pick a Movie” button to get random suggestions
 - 🔗 Uses **TMDB API** for real movie data

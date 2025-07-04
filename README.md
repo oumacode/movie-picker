@@ -23,5 +23,5 @@ Live soon on Vercel...
 ## 🧑‍🎨 Figma Design
 
 View the design prototype on Figma:  
-👉 [View on Figma]([https://www.figma.com/file/your-figma-link-here](https://www.figma.com/proto/XHMXTWbGewi20jpQTwX9YO/Untitled?node-id=3-969&t=vsYEXaW8h2y1T0an-1))
+👉 [View on Figma](https://www.figma.com/proto/XHMXTWbGewi20jpQTwX9YO/Untitled?node-id=3-969&t=vsYEXaW8h2y1T0an-1)
 

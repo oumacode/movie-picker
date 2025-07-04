@@ -4,7 +4,7 @@ A fun and modern movie picker website where users can click a button to get rand
 
 ---
 
-## ✨ Features
+##  Features
 
 - 🟦 Built with **Next.js 14** (App Router)
 - 💨 Styled using **Tailwind CSS**
@@ -14,13 +14,13 @@ A fun and modern movie picker website where users can click a button to get rand
 
 ---
 
-## 📺 Demo
+##  Demo
 
 Live soon on Vercel...
 
 ---
 
-## 🧑‍🎨 Figma Design
+##  Figma Design
 
 View the design prototype on Figma:  
 👉 [View on Figma](https://www.figma.com/proto/XHMXTWbGewi20jpQTwX9YO/Untitled?node-id=3-969&t=vsYEXaW8h2y1T0an-1)

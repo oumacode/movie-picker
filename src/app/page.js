@@ -66,7 +66,11 @@ export default function Home() {
                 src={`${IMAGE_BASE_URL}${movie.poster_path}`}
                 alt={movie.title}
               />
-              <button onClick={pickMovie}>Pick Another Movie</button>
+              <div className="button-container">
+                <button onClick={() => setMovie(null)}>Go Back</button> {/* ← New button */}
+                <button onClick={pickMovie}>Pick Another Movie</button>
+              </div>
+              
             </div>
           )}
   

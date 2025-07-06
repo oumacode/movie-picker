@@ -32,16 +32,16 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 20px;
 }
 
 button{
-    margin-top: 2rem;
     padding: 1rem;
     background-color: var(--color-primary);
     color: var(--color-bg);
     border: 1px solid var(--color-bg);
     border-radius: var(--border-radius); 
+    margin-left: 8px;
 }
 
 button:hover {

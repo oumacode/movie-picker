@@ -6,16 +6,16 @@ A fun and modern movie picker website where users can click a button to get rand
 
 ##  Features
 
-- 🟦 Built with **Next.js 14** (App Router)
-- 🎞️ Scrollable film strip of movie posters
-- 🎲 “Pick a Movie” button to get random suggestions
-- 🔗 Uses **TMDB API** for real movie data
+- Built with Next.js
+- Scrollable film strip of movie posters
+- “Pick a Movie” button to get random suggestions
+-  Uses **TMDB API** for real movie data
 
 ---
 
 ##  Demo
 
-Live soon on Vercel...
+[Link](https://ur-movie-picker.vercel.app/)
 
 ---
 

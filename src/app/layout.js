@@ -1,4 +1,3 @@
-import Footer from "@/Components/Footer";
 
 export const metadata = {
   title: "Movie Picker",
@@ -8,9 +7,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}
-      <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   )
 }

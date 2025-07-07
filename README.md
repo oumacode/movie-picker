@@ -17,8 +17,8 @@ A fun and modern movie picker website where users can click a button to get rand
 
 👉 [Visit this Link](https://ur-movie-picker.vercel.app/)
 
-App Screenshot: (./assets/screenshot-1.png)
-                (./assets/screenshot-2.png)
+[App Screenshot 1](./assets/screenshot-1.png)
+[App Screenshot 2](./assets/screenshot-2.png)
 
 
 ---

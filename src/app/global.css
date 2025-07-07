@@ -12,7 +12,6 @@ body {
   background-color: var(--color-bg);
   color: var(--color-primary);
   font-family: var(--font-secondary);
-  padding: 1rem;
   margin: 0;
   height: 100vh;
   display: flex;
@@ -23,7 +22,7 @@ body {
 h1 {
   font-family: var(--font);
   font-size: 2.8rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   letter-spacing: 2px;
 }
 

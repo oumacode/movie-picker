@@ -1,4 +1,4 @@
-"use client"; 
+"use client";
 
 import "./global.css";
 import { useState, useEffect } from "react";
@@ -10,6 +10,7 @@ const IMAGE_BASE_URL = "https://image.tmdb.org/t/p/w500";
 export default function Home() {
   const [movies, setMovies] = useState([]);
   const [movie, setMovie] = useState(null);
+  const [loading, setLoading] = useState(true); // ← Track loading
 
   useEffect(() => {
     const getMovies = async () => {
@@ -19,6 +20,8 @@ export default function Home() {
         setMovies(data.results);
       } catch (err) {
         console.error("Failed to fetch movies:", err);
+      } finally {
+        setLoading(false); // ← Done loading
       }
     };
 
@@ -32,48 +35,46 @@ export default function Home() {
     }
   };
 
+  if (loading) return null; // ← Don't show anything until data is loaded
+
   return (
     <div className="app">
       <h1>Movie Picker</h1>
 
-        {!movie && (
+      {!movie && (
         <div>
           <div className="film-strip">
             <div className="film-holes"></div>
-              <div className="movies-container">
-                {movies.map((m) => (
-                  <img
-                    key={m.id}
-                    src={`${IMAGE_BASE_URL}${m.poster_path}`}
-                    alt={m.title}
-                  />
-                ))}
-          </div>
-          <div className="film-holes bottom"></div>
+            <div className="movies-container">
+              {movies.map((m) => (
+                <img
+                  key={m.id}
+                  src={`${IMAGE_BASE_URL}${m.poster_path}`}
+                  alt={m.title}
+                />
+              ))}
+            </div>
+            <div className="film-holes bottom"></div>
           </div>
           <div className="button-container">
             <button onClick={pickMovie}>Pick a movie to watch</button>
           </div>
+        </div>
+      )}
+
+      {movie && (
+        <div className="selected-movie">
+          <h2>{movie.title}</h2>
+          <img
+            src={`${IMAGE_BASE_URL}${movie.poster_path}`}
+            alt={movie.title}
+          />
+          <div className="button-container">
+            <button onClick={() => setMovie(null)}>Go Back</button>
+            <button onClick={pickMovie}>Pick Another Movie</button>
           </div>
-          
-        )}
-
-
-            {movie && (
-            <div className="selected-movie">
-              <h2>{movie.title}</h2>
-              <img
-                src={`${IMAGE_BASE_URL}${movie.poster_path}`}
-                alt={movie.title}
-              />
-              <div className="button-container">
-                <button onClick={() => setMovie(null)}>Go Back</button> {/* ← New button */}
-                <button onClick={pickMovie}>Pick Another Movie</button>
-              </div>
-              
-            </div>
-          )}
-  
+        </div>
+      )}
     </div>
   );
 }

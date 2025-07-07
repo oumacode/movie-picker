@@ -24,8 +24,8 @@ View the design prototype on Figma:
 
 👉 [Visit this Link](https://ur-movie-picker.vercel.app/)
 
-![App Screenshot 1](./assets/screenshot-1.png)
-![App Screenshot 2](./assets/screenshot-2.png)
+![App Screenshot 1](./assets/1.png)
+![App Screenshot 2](./assets/2.png)
 
 
 

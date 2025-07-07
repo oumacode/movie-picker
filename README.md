@@ -13,6 +13,13 @@ A fun and modern movie picker website where users can click a button to get rand
 
 ---
 
+##  Figma Design
+
+View the design prototype on Figma:  
+👉 [View on Figma](https://www.figma.com/proto/XHMXTWbGewi20jpQTwX9YO/Untitled?node-id=3-969&t=vsYEXaW8h2y1T0an-1)
+
+---
+
 ##  Demo
 
 👉 [Visit this Link](https://ur-movie-picker.vercel.app/)
@@ -21,11 +28,7 @@ A fun and modern movie picker website where users can click a button to get rand
 ![App Screenshot 2](./assets/screenshot-2.png)
 
 
----
 
-##  Figma Design
 
-View the design prototype on Figma:  
-👉 [View on Figma](https://www.figma.com/proto/XHMXTWbGewi20jpQTwX9YO/Untitled?node-id=3-969&t=vsYEXaW8h2y1T0an-1)
 
 
